@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.javasherlocked"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+       >
+        <activity
+            android:name="com.example.javasherlocked.ControllerActivity"
+            android:label="@string/app_name" 
+            android:configChanges="orientation|screenSize|uiMode">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.javasherlocked.ListOptions"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="com.example.javasherlocked.Options"
+            android:label="@string/title_activity_options" >
+        </activity>
+        <activity
+            android:name="com.example.javasherlocked.Practice"
+            android:label="@string/title_activity_practice" >
+        </activity>
+        <activity
+            android:name="com.example.javasherlocked.Tests"
+            android:label="@string/title_activity_tests" >
+        </activity>
+        <activity
+            android:name="com.example.javasherlocked.SRIJ"
+            android:label="@string/title_activity_srij" >
+        </activity>
+        <activity
+            android:name="com.example.javasherlocked.Contribute"
+            android:label="@string/title_activity_contribute" >
+        </activity>
+    </application>
+
+</manifest>

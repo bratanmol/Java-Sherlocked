@@ -1,0 +1,29 @@
+{
+	
+    "Questions":[
+	{"Question 0":{
+		"Question Text": "Which of the following is generated when the source code is successfully compiled?",
+		"Correct Answer":"b",
+		"Option A":"Output",
+		"Option B":"Byte Code",
+		"Option C":".exe file",
+		"Option D":"None",
+		"Explanation" : "The java compiler generates an intermediate byte code which is then interpreted to run.",
+		"Tags": ["Core","Level1","Compilation"]
+		}
+	},
+	{"Question 1": {
+		"Question Text": "The following method purports to determine whether its sole argument is an odd number. Does the method work?\n\n
+		public static boolean isOdd(int i){\n
+           return i % 2 == 1;\n    }",
+		"Correct Answer":"d",
+		"Option A":"Compiles and Run fine",
+		"Option B":"Doesn't even compile",
+		"Option C":"Compiles but gives runtime error",
+		"Option D":"Runs but gives wrong answer",
+		"Explanation" :"The modulus operator will give negative results for negative integers",
+		"Tags": ["Programming","Level1","Compilation"]
+	  }
+	 }
+	]
+}
